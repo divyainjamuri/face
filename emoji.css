@@ -1,0 +1,128 @@
+.face{
+
+    height: 250px;
+    width: 250px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position: relative;
+}
+.leye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #0e0c0c;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.reye{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.lpupil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(255, 241, 241);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.rpupil{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(247, 247, 247);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.mouth{
+    height: 15px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(28, 25, 25);
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.lear{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(226, 218, 110);
+    margin-left: -15px;
+    margin-top: -15px;
+}
+.rear{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(226, 218, 110);
+    margin-left: 200px;
+    margin-bottom: 900px;
+}
+.learball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.rearball{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(241, 240, 240);
+    margin-left: 225px;
+    margin-top: 20px;
+}
+.lnose{
+    height: 15px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(29, 28, 28);
+    margin-left: 56px;
+    margin-top: 10px;   
+}
+.rnose{
+    height: 15px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:rgb(29, 28, 28);
+    margin-left: 56px;
+    margin-top: 10px;
+}
+.nose{
+    height: 50px;
+    width: 80px;
+    border-radius: 40%;
+    position: absolute;
+    background-color:rgb(29, 28, 28);
+    margin-left: 80px;
+    margin-top: 140px;
+}
+body{
+    background-image: radial-gradient(rgba(255, 192, 203, 0.993),rgb(165, 198, 241),rgb(221, 207, 243),rgba(176, 180, 199, 0.979),rgb(182, 127, 136));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+div:hover{
+    transform: matrix(30,2);
+    background-color: rgb(211, 105, 189);
+}
